@@ -47,7 +47,7 @@ export const CountDownTimer: React.FC<CountdownAppProps> = () => {
     <>
       {timerDone ? (
         <div className="w-full h-lvh bg-blue-200 flex justify-start items-center flex-col pt-40 animate-pulse">
-          <h1 className="text-3xl mb-4">Time's UP</h1>
+          <h1 className="text-3xl mb-4">Time is UP</h1>
           <button
             className="bg-blue-400 px-4 py-2 text-md mr-2 rounded-lg transition duration-150 ease-out"
             onClick={() => setTimerDone(false)}
